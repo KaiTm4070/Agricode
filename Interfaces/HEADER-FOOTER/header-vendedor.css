@@ -1,0 +1,211 @@
+/*Estilo del header*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #7FC54C;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    z-index: 2;
+}
+/*logo y boton*/
+.container_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-left: 15px;
+}
+.container_logo a{
+    font-size: 30px;
+}
+
+.logo{
+    padding-left: 10px;
+    display: flex;
+    letter-spacing: 2px;
+}
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+#btn_menu{
+    display: none;
+    cursor: pointer;
+}
+
+/*busqueda barra*/
+.busqueda{
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    top: 20px;
+    left: 350px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.busqueda input{
+    outline: none;
+    box-sizing: border-box;
+    height: 25px;
+    width: 600px;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    transition: all .7s ease;
+}
+::placeholder{
+    color: grey;
+}
+
+.btn_busqueda{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 53px;
+    height: 53px;
+    background: #000;
+    line-height: 53px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn_busqueda{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 53px;
+    height: 53px;
+    background: #000;
+    line-height: 53px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn_busqueda i{
+    font-size: 15px;
+    color: #fff;
+    line-height: 55px;
+    transition: all .7s ease;
+}
+/* nav header*/
+nav a{
+    position: relative;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #000; 
+    border-radius: 20px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover{
+    background: #000;
+    color: #fff;
+}
+
+/*menu perfil*/
+.container_menu{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; 
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 3;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_Menu{
+    width: 100%;
+    max-width: 300px;
+    background: #1c1c1c;
+    height: 100%;
+    position: fixed;
+    transition: all 500ms ease;
+}.cont_Menu .Menu{
+    transform: translateY(15%);
+}
+
+.coso{
+    display: block;
+    padding: 15px;
+    transition: all 400ms ease;
+}.coso h3{
+    color: #E8EFE8;
+}.coso h4{
+    color: #E8EFE8;
+}.coso a{
+    color: #E8EFE8;
+    text-decoration: dotted;
+    font-size: 20px;
+}
+
+.cerrar_menu{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #E8EFE8;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.coso_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Reciclado de la pagina perfil xd*/
+.img_perfil{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.img__{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn_perfil{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.btn_perfil:hover{
+    background-color: #3e8e41;
+}
