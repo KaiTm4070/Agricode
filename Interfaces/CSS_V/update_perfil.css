@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #E8F3E8;
+  /* background-color: #9DDFB6; */
+/*     background-image: url('../Imagenes/img_fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; */
+}
+
+.form-container {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+.form-container form{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 400px;
+  max-width: 100%;
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+  
+h2 {
+  margin-top: 0;
+}
+  
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+  
+input {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+  
+button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+  
+button:hover {
+  background-color: #3e8e41;
+}
+  
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);    }
+  to {
+    transform: translateY(0);    }
+}
+  
